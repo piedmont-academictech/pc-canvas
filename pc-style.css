@@ -14,7 +14,7 @@ h4 {
   font-weight: 700;
 }
 
-/*Hide Course Title 
+/*Hide Course Title */
 .pages.show .page-title,
 .pages.show.home .course-title {
   display: none;
@@ -25,7 +25,7 @@ h4 {
 }
 .header-bar {
   border-bottom: none;
-}*/
+}
 
 /* Global Nav - Custom Tray */
 /* #main > span */
