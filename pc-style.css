@@ -24,13 +24,13 @@ h4 {
 .circle-icon{
   width:10%;
   height:0;
-  font-size:3rem;
-  color:#fff;
-  text-align:center;
-  line-height:0;
-  padding:5% 0;
-  border-radius:50%;
-  background:#000}
+  font-size: 2.5rem;
+  color: #fff;
+  text-align: center;
+  line-height: 0;
+  padding: 25% 0;
+  border-radius: 50%;
+  background: #000}
 
 /*Hide Course Title */
 .pages.show .page-title,
