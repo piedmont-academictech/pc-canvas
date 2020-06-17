@@ -32,6 +32,21 @@ h4 {
   border-radius: 50%;
   background: #000}
 
+  .fancy-circle-icon{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 66px;
+    border: 4px double #ccc;
+    font-size:2.5rem;
+    color: #666;
+    line-height: 100px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #fff;
+    background: #ddd
+  }.stylish:hover{border:4px double #bbb;color:#aaa;text-decoration:none;background:#e6e6e6}
+
 /*Hide Course Title */
 .pages.show .page-title,
 .pages.show.home .course-title {
@@ -468,7 +483,7 @@ i.gnct_inst_menu_icon {
   background-blend-mode: screen;
 }
 .mod-title {
-  text-align: center; 
+  text-align: center;
   font-size: 1.25rem;
   font-weight: 700;
 }
