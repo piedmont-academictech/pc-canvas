@@ -28,7 +28,7 @@ h4 {
   color: #fff;
   text-align: center;
   line-height: 0;
-  padding: 25% 0;
+  padding: 20% 0;
   border-radius: 50%;
   background: #000}
 
@@ -36,16 +36,17 @@ h4 {
     display: block;
     width: 100px;
     height: 100px;
+    padding: 20% 0;
     border-radius: 66px;
     border: 4px double #ccc;
-    font-size:2.5rem;
+    font-size: 2.5rem;
     color: #666;
     line-height: 100px;
     text-align: center;
     text-decoration: none;
     text-shadow: 0 1px 0 #fff;
-    background: #ddd
-  }.stylish:hover{border:4px double #bbb;color:#aaa;text-decoration:none;background:#e6e6e6}
+    background: #ddd;
+  }
 
 /*Hide Course Title */
 .pages.show .page-title,
