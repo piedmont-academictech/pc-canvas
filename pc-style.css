@@ -14,6 +14,14 @@ h4 {
   font-weight: 700;
 }
 
+.pc-title {
+  color: #144734;
+  font-size: 2rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 900;
+
+}
+
 /*Hide Course Title */
 .pages.show .page-title,
 .pages.show.home .course-title {
