@@ -22,9 +22,8 @@ h4 {
 /* Fancy Icon circles */
 
 .circle-icon{
-  width:10%;
-  height:0;
-  font-size: 2.5rem;
+  width: 100px;
+  height: 100px;
   color: #fff;
   text-align: center;
   line-height: 100px;
@@ -37,7 +36,6 @@ h4 {
     height: 100px;
     border-radius: 66px;
     border: 4px double #ccc;
-    font-size: 2.5rem;
     color: #666;
     line-height: 100px;
     text-align: center;
