@@ -21,17 +21,19 @@ h4 {
 
 /* Fancy Icon circles */
 
-.circle-icon{
-  width: 100px;
-  height: 100px;
-  color: #fff;
-  text-align: center;
-  line-height: 100px;
-  vertical-align: middle;
-  border-radius: 50%;
-  background: #000}
+.circle-icon {
+    background: #ffc0c0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 30px;
+}
 
-.fancy-circle-icon{
+
+.fancy-circle-icon {
     width: 100px;
     height: 100px;
     border-radius: 66px;
@@ -45,6 +47,10 @@ h4 {
     text-shadow: 0 1px 0 #fff;
     background: #ddd;
   }
+
+  .icon-background {
+    color: #c0ffc0;
+}
 
 /*Hide Course Title */
 .pages.show .page-title,
