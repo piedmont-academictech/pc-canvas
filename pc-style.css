@@ -51,6 +51,22 @@ h4 {
   .icon-background {
     color: #ccc;
 }
+.circle-icon2 {
+  background: #ffc0c0;
+  padding:30px;
+  border-radius: 50%;
+}
+
+.circle-icon {
+  background: #ffc0c0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 100px;
+  vertical-align: middle;
+  padding: 30px;
+}
 
 /*Hide Course Title */
 .pages.show .page-title,
