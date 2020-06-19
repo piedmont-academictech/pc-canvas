@@ -21,17 +21,6 @@ h4 {
 
 /* Fancy Icon circles */
 
-.plain-circle-icon {
-    background: #ffc0c0;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 100px;
-    vertical-align: middle;
-    padding: 30px;
-}
-
 
 .fancy-circle-icon {
     width: 100px;
@@ -51,20 +40,17 @@ h4 {
   .icon-background {
     color: #ccc;
 }
-.circle-icon2 {
-  background: #ffc0c0;
-  padding:30px;
-  border-radius: 50%;
-}
-
 .circle-icon {
-  background: #ffc0c0;
+  background: #ddd;
   width: 100px;
   height: 100px;
   border-radius: 50%;
+  border: 4px double #ccc;
+    color: #666;
   text-align: center;
   line-height: 100px;
   vertical-align: middle;
+  text-shadow: 0 1px 0 #fff;
   padding: 30px;
 }
 
