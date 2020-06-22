@@ -42,10 +42,10 @@ h4 {
   border: 4px double #ccc;
     color: #666;
   text-align: center;
-  line-height: 50px;
+  line-height: 100px;
   vertical-align: middle;
   text-shadow: 0 1px 0 #fff;
-  padding: 15px;
+  padding: 30px;
 }
 
 /* ********* Fancy Section  Divider ***************/
