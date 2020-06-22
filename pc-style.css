@@ -49,6 +49,11 @@ h4 {
 }
 
 /* ********* Fancy Section  Divider ***************/
+.box {
+  background:#efefef;
+  margin:40px auto;
+  padding: 2rem;
+}
 .fancy-sec-div
 {
   position: relative;
