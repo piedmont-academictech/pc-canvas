@@ -480,6 +480,7 @@ i.gnct_inst_menu_icon {
 
 /* Module Cards */
 .mod-crd {
+  background-color: white;
   float: left;
   margin: 10px;
   padding: 5px;
