@@ -486,7 +486,7 @@ i.gnct_inst_menu_icon {
   -moz-box-shadow: 1px 1px 1px 1px rgba(184, 184, 184, 0.6);
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1120px) {
   .mod-crd {
     float: none;
     min-width: 100%;
