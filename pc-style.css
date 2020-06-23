@@ -486,9 +486,12 @@ i.gnct_inst_menu_icon {
   background-repeat: no-repeat;
 }
 
+/* Uncomment to use with photo */
+/*
 .mod-crd-title--blend {
   background-blend-mode: screen;
 }
+*/
 .mod-title {
   text-align: center;
   font-size: 1.25rem;
