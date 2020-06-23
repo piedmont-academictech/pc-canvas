@@ -474,13 +474,13 @@ i.gnct_inst_menu_icon {
 
 .mod-crd-title {
   padding: 0px;
-  background-image: url('https://live.staticflickr.com/65535/49978773097_17c968baa8_k.jpg');
+  background-image: url('https://live.staticflickr.com/65535/50038446897_1fcc7dbaf1_o.jpg');
   height: auto;
   width: 100%;
   display: block;
   float: left;
   color: #ffffff;
-  background-color: #2d3b45;
+  background-color: #000;
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -491,7 +491,7 @@ i.gnct_inst_menu_icon {
 .mod-title {
   text-align: center;
   font-size: 1.25rem;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .mod-crd-inner {
