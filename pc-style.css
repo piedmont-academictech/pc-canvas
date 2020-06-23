@@ -480,6 +480,7 @@ i.gnct_inst_menu_icon {
   display: block;
   float: left;
   color: #ffffff;
+  text-shadow: 0 1px 0 #000000;
   background-color: #000;
   background-size: 100%;
   background-repeat: no-repeat;
