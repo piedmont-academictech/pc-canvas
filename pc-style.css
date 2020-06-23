@@ -19,40 +19,12 @@ h4 {
 
 }
 
-/* *************Fancy Icon circles************* */
-
-.circle-icon {
-  background: #ddd;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  border: 4px double #ccc;
-    color: #666;
-  text-align: center;
-  line-height: 100px;
-  vertical-align: middle;
-  text-shadow: 0 1px 0 #fff;
-  padding: 30px;
-}
-.circle-icon2 {
-  background: #ddd;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  border: 4px double #ccc;
-    color: #666;
-  text-align: center;
-  line-height: 100px;
-  vertical-align: middle;
-  text-shadow: 0 1px 0 #fff;
-  padding: 30px;
-}
-
 /* ********* Fancy Section  Divider ***************/
 .box {
   background-color:#efefef;
   margin:40px auto;
-  padding: 2rem;
+  padding: 1.5rem;
+  text-shadow: 0 1px 0 #fff;
 }
 .fancy-sec-div
 {
@@ -330,7 +302,8 @@ i.gnct_inst_menu_icon {
     padding: 0 2px;
 } */
 
-/*************************************************/
+/************************************************
+*/
 /* Right Sidebar */
 #right-side-wrapper {
   background-color: #e1dfdd;
