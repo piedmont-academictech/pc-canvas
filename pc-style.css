@@ -18,6 +18,34 @@ h4 {
   font-weight: 900;
 
 }
+/* PC Buttons and Background for buttons in columns*/
+.pc-btn-bkg {
+  background-color: #144734;
+  color: white;
+  margin-bottom: 0.5rem;
+  padding: 0;
+  border: 1px solid white;
+  border-bottom-left-radius: 0.75rem;
+  border-bottom-right-radius: 0.75rem;
+}
+
+.pc-btn {
+  background-color: #144734;
+  font-size: 1.1rem;
+  color: white;
+  border: none;
+}
+
+.pc-btn:hover {
+  background-color: #2d3b45;
+  font-weight: bold;
+}
+
+.pc-btn:active {
+  background-color: #144734;
+  color: white;
+  border: none;
+}
 
 /* ********* Fancy Section  Divider ***************/
 .box {
@@ -403,27 +431,6 @@ i.gnct_inst_menu_icon {
   border-bottom-left-radius: 0.75rem;
   border-bottom-right-radius: 0.75rem;
 }
-
-/* PC Buttons */
-
-.pc-btn {
-  background-color: #144734;
-  font-size: 1.1rem;
-  color: white;
-  border: none;
-}
-
-.pc-btn:hover {
-  background-color: #2d3b45;
-  font-weight: bold;
-}
-
-.pc-btn:active {
-  background-color: #144734;
-  color: white;
-  border: none;
-}
-
 
 /* Banner Nav Buttons */
 
