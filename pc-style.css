@@ -404,6 +404,27 @@ i.gnct_inst_menu_icon {
   border-bottom-right-radius: 0.75rem;
 }
 
+/* PC Buttons */
+
+.pc-btn {
+  background-color: #144734;
+  font-size: 1.1rem;
+  color: white;
+  border: none;
+}
+
+.pc-btn:hover {
+  background-color: #2d3b45;
+  font-weight: bold;
+}
+
+.pc-btn:active {
+  background-color: #144734;
+  color: white;
+  border: none;
+}
+
+
 /* Banner Nav Buttons */
 
 .bnr-nav-btn {
