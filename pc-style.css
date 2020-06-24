@@ -390,7 +390,7 @@ i.gnct_inst_menu_icon {
 
 /* Overlay width adjustment */
 .ui-dialog.ui-widget-content {
-  width: 60% !important;
+  width: 40% !important;
   padding: 25px;
 }
 
