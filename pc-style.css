@@ -349,15 +349,15 @@ i.gnct_inst_menu_icon {
 
 /* Banner Comm Buttons */
 .comm-btn-bkg {
-  background-color: #B5A268;
-  color: white;
+  background-color: #efefef;
+  color: #144734;
   padding: 0;
   border: 1px solid white;
 }
 
 .comm-btn {
-  background-color: #B5A268;
-  color: white;
+  background-color: #efefef;
+  color: #144734;
   border: none;
 }
 
@@ -367,8 +367,8 @@ i.gnct_inst_menu_icon {
 }
 
 .comm-btn:active {
-  background-color: #B5A268;
-  color: white;
+  background-color: #efefef;
+  color: #144734;
   border: none;
 }
 
