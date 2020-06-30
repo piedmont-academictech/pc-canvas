@@ -370,6 +370,13 @@ i.gnct_inst_menu_icon {
   border: none;
 }
 
+@media screen and (max-width: 1355px) {
+  .comm-btn-bkg {
+    float: none;
+    min-width: 100%;
+  }
+}
+
 /* Banner Header Logo */
 .bnr-hdr-logo {
   float: left;
