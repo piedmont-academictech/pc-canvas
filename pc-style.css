@@ -361,6 +361,7 @@ i.gnct_inst_menu_icon {
 }
 
 .comm-btn:hover {
+  background-color: #fff;
   font-weight: bold;
 }
 
