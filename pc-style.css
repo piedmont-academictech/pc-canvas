@@ -349,25 +349,22 @@ i.gnct_inst_menu_icon {
 
 /* Banner Comm Buttons */
 .comm-btn-bkg {
-  background-color: #efefef;
   color: #144734;
   padding: 0;
   border: 1px solid white;
 }
 
 .comm-btn {
-  background-color: #efefef;
+  background-color: #fff;
   color: #144734;
   border: none;
 }
 
 .comm-btn:hover {
-  background-color: #2d3b45;
   font-weight: bold;
 }
 
 .comm-btn:active {
-  background-color: #efefef;
   color: #144734;
   border: none;
 }
