@@ -351,15 +351,12 @@ i.gnct_inst_menu_icon {
 .comm-btn-bkg {
   background-color: #B5A268;
   color: white;
-  margin-bottom: 0.5rem;
   padding: 0;
   border: 1px solid white;
-  border-radius: 5px;
 }
 
 .comm-btn {
   background-color: #B5A268;
-  font-size: 1.1rem;
   color: white;
   border: none;
 }
