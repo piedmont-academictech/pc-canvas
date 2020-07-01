@@ -379,9 +379,11 @@ i.gnct_inst_menu_icon {
 @media screen and (max-width: 1355px) {
   .comm-btn-bkg {
     float: none;
-
     min-width: 100%;
     margin-bottom: 1rem;
+  }
+  .comm-btn-bkg--lt-col{
+    margin-left: 0;
   }
 }
 
