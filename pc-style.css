@@ -352,7 +352,7 @@ i.gnct_inst_menu_icon {
   margin-left: 35%;
 }
 .comm-btn-bkg {
-  float:right;
+  text-align:right;
   color: #144734;
   padding: 0;
   border: 1px solid white;
@@ -379,6 +379,7 @@ i.gnct_inst_menu_icon {
 @media screen and (max-width: 1355px) {
   .comm-btn-bkg {
     float: none;
+    text-align: center;
     min-width: 100%;
     margin-bottom: 1rem;
   }
