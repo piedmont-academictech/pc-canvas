@@ -357,6 +357,8 @@ i.gnct_inst_menu_icon {
 .comm-btn {
   background-color: #fff;
   color: #144734;
+  font-size: 0.5rem;
+  padding: 2px;
   border: none;
 }
 
