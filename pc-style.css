@@ -348,7 +348,11 @@ i.gnct_inst_menu_icon {
 }
 
 /* Banner Comm Buttons */
+.comm-btn-lt-col{
+  margin-left: 40%;
+}
 .comm-btn-bkg {
+  float:right;
   color: #144734;
   padding: 0;
   border: 1px solid white;
@@ -357,7 +361,6 @@ i.gnct_inst_menu_icon {
 .comm-btn {
   background-color: #fff;
   color: #144734;
-  font-size: 0.5rem;
   padding: 2px;
   border: none;
 }
