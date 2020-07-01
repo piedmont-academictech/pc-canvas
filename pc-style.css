@@ -349,14 +349,15 @@ i.gnct_inst_menu_icon {
 
 /* Banner Comm Buttons */
 .comm-btn-bkg--lt-col{
-  margin-left: 25%;
+  margin-left: 40%;
 }
 .comm-btn-bkg {
+  float: right;
   text-align:right;
   color: #144734;
   padding: 0;
   border: 1px solid white;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .comm-btn {
