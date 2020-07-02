@@ -77,6 +77,9 @@ h4 {
 
 /************************************************
 */
+.pages.show .page-title {
+  display: none;
+}
 /* Right Sidebar */
 #right-side-wrapper {
   background-color: #e1dfdd;
