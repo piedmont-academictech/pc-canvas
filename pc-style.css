@@ -75,28 +75,6 @@ h4 {
   transform: rotate(-3deg);
 }
 
-/*Hide Course Title */
-/* ******uncomment to hide title*******
-.pages.show .page-title,
-.pages.show.home .course-title {
-  display: none;
-}
-.pages.show.home .show-content {
-  margin-top: -25px;
-  padding-top: 0px;
-}
-.header-bar {
-  border-bottom: none;
-}
-
-.ic-Action-header__Primary {
-  display: none;
-}
-
-.ic-app-nav-toggle-and-crumbs{
-  margin: 0 0 0 24px;
-}*/
-
 /************************************************
 */
 /* Right Sidebar */
