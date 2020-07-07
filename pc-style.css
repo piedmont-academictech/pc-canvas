@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
+html { font-size: calc(1em + 1vw) }
 p {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1em;
 }
 
 h1,
@@ -14,7 +15,7 @@ h4 {
 }
 
 .pc-title {
-  font-size: 2rem;
+  font-size: 2em;
   font-weight: 900;
 }
 /* PC Buttons and Background for buttons in columns*/
@@ -29,7 +30,7 @@ h4 {
 
 .pc-btn {
   background-color: #144734;
-  font-size: 1.1rem;
+  font-size: 1.1em;
   color: white;
   border: none;
 }
@@ -228,7 +229,7 @@ h4 {
 
 .bnr-nav-btn {
   background-color: #144734;
-  font-size: 1.1rem;
+  font-size: 1.1em;
   color: white;
   border: none;
   border-bottom-left-radius: 0.75rem;
@@ -314,7 +315,7 @@ h4 {
 */
 .mod-title {
   text-align: center;
-  font-size: 1.25rem;
+  font-size: 1.25em;
   font-weight: 800;
 }
 
