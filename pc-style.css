@@ -18,10 +18,15 @@ table {
   width: 100%;
 }
 
+table, td, th {
+  border: 1px solid black;
+}
+
 th, td {
   text-align: left;
   padding: 1.1rem;
   border-bottom: 1px solid #ddd;
+  word-wrap: normal;
 }
 
 th {
@@ -32,7 +37,6 @@ th {
 td {
   height: 50px;
   vertical-align: middle;
-  word-wrap: normal;
 }
 
 tr:nth-child(even) {background-color: #f2f2f2;}
