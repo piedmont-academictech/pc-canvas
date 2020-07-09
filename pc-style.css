@@ -21,6 +21,8 @@ table {
 table, td, th, tr {
   border: 1px solid #ddd;
   word-wrap: break-word;
+  text-align: left;
+  vertical-align: middle;
 }
 
 th, td {
@@ -30,10 +32,6 @@ th, td {
 th {
   background-color: #144734;
   color: white;
-}
-
-td {
-  vertical-align: middle;
 }
 
 tr:nth-child(even) {background-color: #f2f2f2;}
