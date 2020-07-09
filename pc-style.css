@@ -14,6 +14,25 @@ h4 {
   font-weight: 900;
 }
 
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
 .pc-title {
   font-size: 2em;
   font-weight: 900;
