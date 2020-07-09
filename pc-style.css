@@ -31,8 +31,7 @@ table, td, th, tr {
 }
 
 th, td {
-  margin-left: 5px;
-  padding: 15px 10px;
+  padding: 15px !important;
 }
 
 th {
