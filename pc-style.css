@@ -20,11 +20,11 @@ table {
 
 table, td, th, tr {
   border: 1px solid black;
-  padding: 1.1rem;
   word-wrap: break-word;
 }
 
 th, td {
+  padding: 15px;
   text-align: left;
   border-bottom: 1px solid #ddd;
 }
