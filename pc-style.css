@@ -26,7 +26,8 @@ table, td, th, tr {
 }
 
 th, td {
-  padding: 25px;
+  margin-left: 5px;
+  padding: 15px 10px;
 }
 
 th {
