@@ -323,3 +323,10 @@ h4 {
   border: 1px solid #cccccc;
   text-align: center;
 }
+
+/* ******Syllabus Sections ******** */
+.syl-sec1 {
+  background-color: rgba(181, 162, 104, 0.5);
+  border: 1px solid white;
+  padding: 1.5rem;
+}
