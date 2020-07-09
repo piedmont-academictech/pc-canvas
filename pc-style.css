@@ -325,6 +325,9 @@ h4 {
 }
 
 /* ******Syllabus Sections ******** */
+.syl-row{
+  padding: 1.5rem;
+}
 .syl-sec1 {
   background-color: rgba(193, 187, 168, 0.2);
   border: 1px solid white;
