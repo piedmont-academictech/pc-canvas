@@ -13,6 +13,10 @@ h3,
 h4 {
   font-weight: 900;
 }
+ol li, ul li {
+  padding: 5px;
+  margin-left: 35px;
+}
 
 table {
   border-collapse: separate;
