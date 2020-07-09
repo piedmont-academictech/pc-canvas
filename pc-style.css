@@ -15,7 +15,6 @@ h4 {
 }
 
 table {
-  border-collapse: collapse;
   width: 100%;
 }
 
@@ -25,12 +24,18 @@ th, td {
   border-bottom: 1px solid #ddd;
 }
 
-tr:nth-child(even) {background-color: #f2f2f2;}
-
 th {
-  background-color: #4CAF50;
+  background-color: #144734;
   color: white;
 }
+
+td {
+  height: 50px;
+  vertical-align: middle;
+  word-wrap: normal;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
 
 
 .pc-title {
