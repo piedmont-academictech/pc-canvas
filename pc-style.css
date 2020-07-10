@@ -18,31 +18,6 @@ ol li, ul li {
   margin-left: 15px;
 }
 
-table {
-  border-collapse: separate;
-  width: 100%;
-}
-
-table, td, th, tr {
-  border: 1px solid #fff;
-  word-wrap: break-word;
-  text-align: left;
-  vertical-align: middle;
-}
-
-th, td {
-  padding: 15px !important;
-}
-
-th {
-  background-color: rgba(178, 178, 178, 0.75);
-  color: black;
-}
-
-tr:nth-child(odd) {background-color: rgba(178, 178, 178, 0.2);}
-
-tr:nth-child(even) {background-color: rgba(178, 178, 178, 0.1);}
-
 .list-view>ul, .list-view>nav>ul {
   list-style: none;
   margin: 0 !important;
@@ -370,3 +345,28 @@ tr:nth-child(even) {background-color: rgba(178, 178, 178, 0.1);}
   border-radius: 10px;
   padding: 1.5rem;
 }
+
+.syl-tbl table {
+  border-collapse: separate;
+  width: 100%;
+}
+
+.syl-tbl table, .syl-tbl td, .syl-tbl th, .syl-tbl tr {
+  border: 1px solid #fff;
+  word-wrap: break-word;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.syl-tbl th, .syl-tbl td {
+  padding: 15px !important;
+}
+
+.syl-tbl th {
+  background-color: rgba(178, 178, 178, 0.75);
+  color: black;
+}
+
+.syl-tbl tr:nth-child(odd) {background-color: rgba(178, 178, 178, 0.2);}
+
+.syl-tbl tr:nth-child(even) {background-color: rgba(178, 178, 178, 0.1);}
