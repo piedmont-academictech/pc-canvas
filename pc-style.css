@@ -35,11 +35,11 @@ th, td {
 }
 
 th {
-  background-color: rgba(193, 187, 168, 0.5);
+  background-color: rgba(178, 178, 178);
   color: black;
 }
 
-tr:nth-child(even) {background-color: rgba(193, 187, 168, 0.2);}
+tr:nth-child(odd) {background-color: rgba(178, 178, 178, 0.2);}
 
 .list-view>ul, .list-view>nav>ul {
   list-style: none;
