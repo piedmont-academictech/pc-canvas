@@ -41,6 +41,8 @@ th {
 
 tr:nth-child(odd) {background-color: rgba(178, 178, 178, 0.2);}
 
+tr:nth-child(even) {background-color: rgba(178, 178, 178, 0.1);}
+
 .list-view>ul, .list-view>nav>ul {
   list-style: none;
   margin: 0 !important;
