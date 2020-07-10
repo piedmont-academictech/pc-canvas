@@ -35,7 +35,7 @@ th, td {
 }
 
 th {
-  background-color: rgba(178, 178, 178);
+  background-color: rgba(178, 178, 178, 0.75);
   color: black;
 }
 
