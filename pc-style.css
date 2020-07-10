@@ -24,7 +24,7 @@ table {
 }
 
 table, td, th, tr {
-  border: 1px solid #ddd;
+  border: 1px solid #fff;
   word-wrap: break-word;
   text-align: left;
   vertical-align: middle;
