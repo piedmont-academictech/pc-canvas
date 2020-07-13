@@ -13,7 +13,7 @@ h3,
 h4 {
   font-weight: 900;
 }
-ol li, ul li {
+.syl-tbl ol li, .syl-tbl ul li {
   padding: 5px;
   margin-left: 15px;
 }
