@@ -29,6 +29,15 @@ h4 {
   font-size: 2em;
   font-weight: 900;
 }
+
+/* Instructor Photo */
+.pc-inst-pic {
+  border: 15px solid white;
+  box-shadow: 1px 1px 1px 1px rgba(184, 184, 184, 0.6);
+  -webkit-box-shadow: 1px 1px 1px 1px rgba(184, 184, 184, 0.6);
+  -moz-box-shadow: 1px 1px 1px 1px rgba(184, 184, 184, 0.6);
+}
+
 /* PC Buttons and Background for buttons in columns*/
 .pc-btn-bkg {
   background-color: #144734;
