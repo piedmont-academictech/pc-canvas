@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-
-p, li {
-  font-family: "Open Sans", sans-serif;
+p,
+li {
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 1em;
 }
@@ -13,12 +13,14 @@ h3,
 h4 {
   font-weight: 900;
 }
-.syl-tbl ol li, .syl-tbl ul li {
+.syl-tbl ol li,
+.syl-tbl ul li {
   padding: 5px;
   margin-left: 15px;
 }
 
-.list-view>ul, .list-view>nav>ul {
+.list-view > ul,
+.list-view > nav > ul {
   list-style: none;
   margin: 0 !important;
   padding: 0 !important;
@@ -32,11 +34,11 @@ h4 {
 
 /* Instructor Photo */
 
-.pc-image-cropper{
+.pc-image-cropper {
   width: 100%;
   padding-top: 100%;
-    position: relative;
-    overflow: hidden;
+  position: relative;
+  overflow: hidden;
   border: solid 10px white;
   border-radius: 50%;
   box-shadow: 1px 1px 1px 1px rgba(184, 184, 184, 0.6);
@@ -44,8 +46,7 @@ h4 {
   -moz-box-shadow: 1px 1px 1px 1px rgba(184, 184, 184, 0.6);
 }
 
-.pc-inst-pic{
-  display: inline;
+.pc-inst-pic {
   margin: 0 auto;
   height: auto;
   width: 110%;
@@ -92,7 +93,7 @@ h4 {
 .fancy-sec-div:before {
   z-index: -1;
   position: absolute;
-  content: "";
+  content: '';
   bottom: 15px;
   left: 10px;
   width: 50%;
@@ -328,7 +329,7 @@ h4 {
 
 .mod-crd-title {
   padding: 0px;
-  background-image: url("https://live.staticflickr.com/65535/50038446897_1fcc7dbaf1_o.jpg");
+  background-image: url('https://live.staticflickr.com/65535/50038446897_1fcc7dbaf1_o.jpg');
   height: auto;
   width: 100%;
   display: block;
@@ -358,7 +359,7 @@ h4 {
 }
 
 /* ******Syllabus Sections ******** */
-.syl-row{
+.syl-row {
   padding: 1.5rem;
 }
 .syl-sec1 {
@@ -373,14 +374,18 @@ h4 {
   width: 100%;
 }
 
-.syl-tbl table, .syl-tbl td, .syl-tbl th, .syl-tbl tr {
+.syl-tbl table,
+.syl-tbl td,
+.syl-tbl th,
+.syl-tbl tr {
   border: 1px solid #fff;
   word-wrap: break-word;
   text-align: left;
   vertical-align: middle;
 }
 
-.syl-tbl th, .syl-tbl td {
+.syl-tbl th,
+.syl-tbl td {
   padding: 15px !important;
 }
 
@@ -389,6 +394,10 @@ h4 {
   color: black;
 }
 
-.syl-tbl tr:nth-child(odd) {background-color: rgba(178, 178, 178, 0.2);}
+.syl-tbl tr:nth-child(odd) {
+  background-color: rgba(178, 178, 178, 0.2);
+}
 
-.syl-tbl tr:nth-child(even) {background-color: rgba(178, 178, 178, 0.1);}
+.syl-tbl tr:nth-child(even) {
+  background-color: rgba(178, 178, 178, 0.1);
+}
