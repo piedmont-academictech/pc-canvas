@@ -32,8 +32,8 @@ h4 {
 
 /* Instructor Photo */
 
-.pc-inst-pic {
-  width: 100%;
+.pc-inst-pic img{
+  width: 80%;
   /*height: 100%;*/
   border: solid 10px white;
   border-radius: 50%;
