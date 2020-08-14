@@ -35,7 +35,7 @@ h4 {
 .pc-inst-pic img {
   width: 150px;
   height: 200px;
-  border: 20px;
+  border: solid 15px white;
   border-radius: 100px;
   -webkit-box-shadow: 0 15px 10px #777;
   -moz-box-shadow: 0 15px 10px #777;
