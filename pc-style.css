@@ -34,22 +34,14 @@ h4 {
 
 /* Instructor Photo */
 
-.pc-image-cropper {
+.pc-inst-pic {
   width: 100%;
-  padding-top: 100%;
-  position: relative;
-  overflow: hidden;
+  height: auto;
   border: solid 10px white;
   border-radius: 50%;
   box-shadow: 1px 1px 1px 1px rgba(184, 184, 184, 0.6);
   -webkit-box-shadow: 1px 1px 1px 1px rgba(184, 184, 184, 0.6);
   -moz-box-shadow: 1px 1px 1px 1px rgba(184, 184, 184, 0.6);
-}
-
-.pc-inst-pic {
-  margin: 0 auto;
-  height: auto;
-  width: 110%;
 }
 
 /* PC Buttons and Background for buttons in columns*/
