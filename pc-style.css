@@ -37,9 +37,9 @@ h4 {
   height: 200px;
   border: solid 15px white;
   border-radius: 50%;
-  -webkit-box-shadow: 0 15px 10px #777;
-  -moz-box-shadow: 0 15px 10px #777;
-  box-shadow: 0 15px 10px #777;
+  box-shadow: 1px 1px 1px 1px rgba(184, 184, 184, 0.6);
+  -webkit-box-shadow: 1px 1px 1px 1px rgba(184, 184, 184, 0.6);
+  -moz-box-shadow: 1px 1px 1px 1px rgba(184, 184, 184, 0.6);
 }
 
 /* PC Buttons and Background for buttons in columns*/
