@@ -33,10 +33,9 @@ h4 {
 /* Instructor Photo */
 
 .pc-inst-pic img {
-  float: left;
   width: 150px;
   height: 150px;
-  border: solid 15px white;
+  border: solid 10px white;
   border-radius: 50%;
   box-shadow: 1px 1px 1px 1px rgba(184, 184, 184, 0.6);
   -webkit-box-shadow: 1px 1px 1px 1px rgba(184, 184, 184, 0.6);
