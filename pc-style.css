@@ -33,7 +33,7 @@ h4 {
 /* Instructor Photo */
 
 .pc-image-cropper{
-  width: 80%;
+  width: 50%;
     height: 0;
     position: relative;
     overflow: hidden;
