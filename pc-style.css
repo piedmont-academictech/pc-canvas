@@ -32,14 +32,23 @@ h4 {
 
 /* Instructor Photo */
 
-.pc-inst-pic img{
-  width: 80%;
-  height: auto;
+.pc-image-cropper{
+  width: 600px;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
   border: solid 10px white;
   border-radius: 50%;
   box-shadow: 1px 1px 1px 1px rgba(184, 184, 184, 0.6);
   -webkit-box-shadow: 1px 1px 1px 1px rgba(184, 184, 184, 0.6);
   -moz-box-shadow: 1px 1px 1px 1px rgba(184, 184, 184, 0.6);
+}
+
+.pc-inst-pic{
+  display: inline;
+  margin: 0 auto;
+  /*height: 100%;
+  width: auto;*/
 }
 
 /* PC Buttons and Background for buttons in columns*/
