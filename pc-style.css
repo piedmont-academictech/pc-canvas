@@ -33,8 +33,8 @@ h4 {
 /* Instructor Photo */
 
 .pc-image-cropper{
-  width: 600px;
-    height: 600px;
+  width: 400px;
+    height: 400px;
     position: relative;
     overflow: hidden;
   border: solid 10px white;
@@ -47,8 +47,8 @@ h4 {
 .pc-inst-pic{
   display: inline;
   margin: 0 auto;
-  /*height: 100%;
-  width: auto;*/
+  height: auto;
+  width: 100%;
 }
 
 /* PC Buttons and Background for buttons in columns*/
