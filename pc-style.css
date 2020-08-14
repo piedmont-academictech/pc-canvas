@@ -53,6 +53,7 @@ h4 {
       position:relative;
 }
 .pc-inst-pic img {
+  border-radius: 50%;
   display: block; 
     width: inherit;
 }
