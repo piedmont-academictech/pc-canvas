@@ -34,7 +34,6 @@ h4 {
 
 .pc-image-cropper{
   width: 100%;
-  height: auto;
   padding-top: 100%;
     position: relative;
     overflow: hidden;
