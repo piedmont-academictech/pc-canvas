@@ -31,33 +31,15 @@ h4 {
 }
 
 /* Instructor Photo */
-.pc-inst-pic a {
-  background: #ffffff;
-        display: inline-block;
-        margin: 55px 75px 30px;
-        padding: 15px 15px 30px;
-        text-align: center;
-        text-decoration: none;
-        -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-        -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-        box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-        -webkit-transition: all .20s linear;
-        -moz-transition: all .20s linear;
-        transition: all .20s linear;
-        z-index: 0;
-        position: relative;
-}
-.pc-inst-pic a:after {
-  color: #333;
-  font-size: 25px;
-  content: attr(title);
-  position: relative;
-  top: 15px;
-}
+
 .pc-inst-pic img {
-  display: block;
-  width: 30%;
-  height: auto
+  width: 150px;
+  height: 200px;
+  border: 20px;
+  border-radius: 100px;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
 }
 
 /* PC Buttons and Background for buttons in columns*/
