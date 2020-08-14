@@ -33,6 +33,7 @@ h4 {
 /* Instructor Photo */
 
 .pc-inst-pic img {
+  float: left;
   width: 150px;
   height: 150px;
   border: solid 15px white;
