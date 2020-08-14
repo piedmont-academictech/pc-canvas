@@ -31,16 +31,32 @@ h4 {
 }
 
 /* Instructor Photo */
-.pc-inst-pic {
-  background: #fff;
-  float: left;
-  margin: 0 0 27px 30px;
-  width: auto;
-  padding: 10px 10px 15px;
-  text-align: center;
-  box-shadow: 0 3px 6px rgba(0,0,0,.25);
-  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
-  -moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+.pc-inst-pic a {
+  background: #ffffff;
+        display: inline-block;
+        margin: 55px 75px 30px;
+        padding: 15px 15px 30px;
+        text-align: center;
+        text-decoration: none;
+        -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+        -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+        -webkit-transition: all .20s linear;
+        -moz-transition: all .20s linear;
+        transition: all .20s linear;
+        z-index: 0;
+        position: relative;
+}
+.pc-inst-pic a:after {
+  color: #333;
+  font-size: 25px;
+  content: attr(title);
+  position: relative;
+  top: 15px;
+}
+.pc-inst-pic img {
+  display: block;
+  width: 250px;
 }
 
 /* PC Buttons and Background for buttons in columns*/
