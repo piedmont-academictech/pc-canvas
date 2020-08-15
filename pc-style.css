@@ -38,24 +38,24 @@ h4 {
   background: white;
   display: inline;
   float: left;
-  margin: 0 15px 15spx;
+  margin: 0 15px 15px;
   padding: 10px 10px 10px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
-  -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-  -moz-box-shadow: 0 4px 6px rgba(0,0,0,.3);
-  box-shadow: 0 4px 6px rgba(0,0,0,.3);
-  -webkit-transition: all .15s linear;
-  -moz-transition: all .15s linear;
-  transition: all .15s linear;
-  z-index:0;
-      position:relative;
+  -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.15s linear;
+  -moz-transition: all 0.15s linear;
+  transition: all 0.15s linear;
+  z-index: 0;
+  position: relative;
 }
 .pc-inst-pic img {
   border-radius: 50%;
-  display: block; 
-    width: inherit;
+  display: block;
+  width: inherit;
 }
 
 /* PC Buttons and Background for buttons in columns*/
