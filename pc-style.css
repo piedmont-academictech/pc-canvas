@@ -294,8 +294,7 @@ h4 {
 /* ******* hr divider with Shadow *********** */
 .section-divider {
   border: none;
-  height: 20px;
-  width: 98%;
+  width: 96%;
   height: 50px;
   margin-top: 0;
   /*border-bottom: 1px solid #1f1209;*/
