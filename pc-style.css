@@ -93,10 +93,8 @@ h4 {
   padding: 1.5rem;
   text-shadow: 0 1px 0 #fff;
 }
+
 .fancy-sec-div {
-  position: relative;
-}
-.fancy-sec-div:before {
   -webkit-box-shadow: 0 10px 6px -6 #777;
   -moz-box-shadow: 0 10px 6px -6 #777;
   box-shadow: 0 10px 6px -6 #777;
