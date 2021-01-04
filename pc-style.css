@@ -163,6 +163,12 @@ h4 {
   }
 }
 
+/* Banner Flex container */
+.flex-bnr {
+  display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+}
 /* Banner Header Logo */
 .bnr-hdr-logo {
   float: left;
