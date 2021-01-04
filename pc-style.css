@@ -181,7 +181,7 @@ h4 {
     border-bottom: none;
     border-top-right-radius: 0.75rem;
     border-top-left-radius: 0.75rem;
-    padding: 0.25rem 7rem;
+    padding: 30% 7rem;
   }
 }
 /* Banner Header Title */
@@ -191,7 +191,7 @@ h4 {
   color: white;
   border: 1px solid white;
   border-top-right-radius: 0.75rem;
-  /*padding: 0.5rem 1rem 0.5rem 2rem;*/
+  padding: 30%;
 }
 @media screen and (max-width: 1366px) {
   .bnr-hdr-title {
