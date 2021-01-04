@@ -202,6 +202,7 @@ h4 {
   vertical-align: middle;
   text-align: center;
   width: 85%;
+  padding: 10px;
 }
 @media screen and (max-width: 1366px) {
   .bnr-hdr-title {
