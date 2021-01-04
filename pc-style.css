@@ -193,6 +193,7 @@ h4 {
   color: white;
   border: 1px solid white;
   border-top-right-radius: 0.75rem;
+  overflow: auto;
   text-align: center;
   margin: auto;
   width: 50%;
