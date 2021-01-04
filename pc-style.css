@@ -165,6 +165,7 @@ h4 {
 
 /* Banner Header Logo */
 .bnr-hdr-logo {
+  float: left;
   max-width: 25%;
   background-color: #144734;
   border: 1px solid white;
