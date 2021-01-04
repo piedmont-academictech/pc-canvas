@@ -173,7 +173,11 @@ h4 {
   text-align: center;
   margin: auto;
   height: auto;
-  width: 20%;
+  width: 30%;
+}
+img .bnr-hdr-logo {
+  width: 300 px;
+  height: auto;
 }
 @media screen and (max-width: 1366px) {
   .bnr-hdr-logo {
