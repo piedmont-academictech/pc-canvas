@@ -172,6 +172,7 @@ h4 {
   border-top-left-radius: 0.75rem;
   text-align: center;
   margin: auto;
+  height: auto;
   width: 20%;
 }
 @media screen and (max-width: 1366px) {
