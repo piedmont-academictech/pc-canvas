@@ -171,8 +171,6 @@ h4 {
 }
 /* Banner Header Logo */
 .bnr-hdr-logo {
-  float: left;
-  max-width: 15%;
   background-color: #144734;
   border: 1px solid white;
   border-top-left-radius: 0.75rem;
@@ -180,10 +178,7 @@ h4 {
   margin: auto;
   height: auto;
   width: 15%;
-}
-img .bnr-hdr-logo {
-  width: 25%;
-  height: auto;
+  padding: 10px;
 }
 @media screen and (max-width: 1366px) {
   .bnr-hdr-logo {
@@ -208,6 +203,7 @@ img .bnr-hdr-logo {
   color: white;
   border: 1px solid white;
   border-top-right-radius: 0.75rem;
+  margin-right: 20px;
   vertical-align: middle;
   text-align: center;
 }
