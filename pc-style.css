@@ -177,13 +177,13 @@ h4 {
 @media screen and (max-width: 1366px) {
   .bnr-hdr-logo {
     float: none;
-    max-width: 50%;
+    min-width: 50%;
     border-left: 1px solid white;
     border-right: 1px solid white;
     border-bottom: none;
     border-top-right-radius: 0.75rem;
     border-top-left-radius: 0.75rem;
-    padding: 2rem;
+    padding: 2.5rem;
   }
 }
 /* Banner Header Title */
