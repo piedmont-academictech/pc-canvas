@@ -193,8 +193,9 @@ h4 {
   color: white;
   border: 1px solid white;
   border-top-right-radius: 0.75rem;
-  line-height: 200px;
-  height: 200px;
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
   text-align: center;
 }
 @media screen and (max-width: 1366px) {
