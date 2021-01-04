@@ -28,7 +28,7 @@ h4 {
 }
 
 .pc-title {
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: 900;
 }
 
@@ -89,8 +89,8 @@ h4 {
 /* ********* Fancy Section ***************/
 .box {
   background-color: #efefef;
-  margin: 20px auto;
-  padding: 1rem;
+  margin: 15px 1px;
+  padding: .5rem;
   text-shadow: 0 1px 0 #fff;
 }
 
