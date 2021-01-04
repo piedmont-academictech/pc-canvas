@@ -109,6 +109,7 @@ h4 {
 /* Articulate iframe */
 .articulate-content{
   padding: 0px;
+  border:rgba(178, 178, 178, 0.75)
 }
 
 /* Right Sidebar */
@@ -192,6 +193,7 @@ h4 {
   border: 1px solid white;
   border-top-right-radius: 0.75rem;
   padding: 30%;
+  text-align: center;
 }
 @media screen and (max-width: 1366px) {
   .bnr-hdr-title {
