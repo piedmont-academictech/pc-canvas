@@ -175,7 +175,7 @@ h4 {
   border: 1px solid white;
   border-top-left-radius: 0.75rem;
   text-align: center;
-  width: 15%;
+  max-width: 15%;
   padding: 10px;
 }
 @media screen and (max-width: 1366px) {
@@ -199,7 +199,7 @@ h4 {
   border-top-right-radius: 0.75rem;
   vertical-align: middle;
   text-align: center;
-  width: 85%;
+  max-width: 85%;
   padding: 10px;
 }
 @media screen and (max-width: 1366px) {
