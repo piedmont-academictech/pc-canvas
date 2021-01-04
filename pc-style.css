@@ -166,14 +166,14 @@ h4 {
 /* Banner Header Logo */
 .bnr-hdr-logo {
   float: left;
-  max-width: 20%;
+  max-width: 15%;
   background-color: #144734;
   border: 1px solid white;
   border-top-left-radius: 0.75rem;
   text-align: center;
   margin: auto;
   height: auto;
-  width: 20%;
+  width: 15%;
 }
 img .bnr-hdr-logo {
   width: 50%;
