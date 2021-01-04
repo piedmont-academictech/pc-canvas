@@ -170,7 +170,6 @@ h4 {
   background-color: #144734;
   border: 1px solid white;
   border-top-left-radius: 0.75rem;
-  padding: 1.25rem 1rem 1.25rem 1rem;
   text-align: center;
 }
 @media screen and (max-width: 1366px) {
@@ -182,7 +181,7 @@ h4 {
     border-bottom: none;
     border-top-right-radius: 0.75rem;
     border-top-left-radius: 0.75rem;
-    padding: 10% 30%;
+    padding: 30% 7rem;
   }
 }
 /* Banner Header Title */
@@ -192,7 +191,7 @@ h4 {
   color: white;
   border: 1px solid white;
   border-top-right-radius: 0.75rem;
-  padding: 10% 30%;
+  padding: 10%;
   text-align: center;
 }
 @media screen and (max-width: 1366px) {
