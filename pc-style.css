@@ -171,7 +171,8 @@ h4 {
   border: 1px solid white;
   border-top-left-radius: 0.75rem;
   text-align: center;
-  padding: 0.25rem;
+  margin: auto;
+  width: 50%;
 }
 @media screen and (max-width: 1366px) {
   .bnr-hdr-logo {
