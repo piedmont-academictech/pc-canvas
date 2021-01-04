@@ -194,7 +194,8 @@ h4 {
   border: 1px solid white;
   border-top-right-radius: 0.75rem;
   text-align: center;
-  padding: 10px 0.1rem;
+  margin: auto;
+  width: 50%;
 }
 @media screen and (max-width: 1366px) {
   .bnr-hdr-title {
