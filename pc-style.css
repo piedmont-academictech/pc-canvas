@@ -188,7 +188,7 @@ h4 {
 }
 /* Banner Header Title */
 .bnr-hdr-title {
-  float: none;
+  float: left;
   background-color: #144734;
   color: white;
   border: 1px solid white;
