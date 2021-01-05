@@ -89,7 +89,8 @@ h4 {
 /* ********* Fancy Section ***************/
 .box {
   background-color: #efefef;
-  margin: 15px 1px;
+  width: 100%;
+  margin: 15px 0;
   padding: .5rem;
   text-shadow: 0 1px 0 #fff;
 }
