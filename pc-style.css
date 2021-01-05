@@ -58,6 +58,11 @@ h4 {
   width: inherit;
 }
 
+/* container */
+.containe-fluid{
+  width: 100%;
+}
+
 /* PC Buttons and Background for buttons in columns*/
 .pc-btn-bkg {
   background-color: #144734;
@@ -96,7 +101,6 @@ h4 {
 }
 
 .fancy-sec-div {
-  width: 100%;
   -webkit-box-shadow: 0 8px 8px -6px #777;
   -moz-box-shadow: 0 8px 8px -6px #777;
        box-shadow: 0 8px 8px -6px #777;
