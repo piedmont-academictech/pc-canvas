@@ -201,7 +201,7 @@ h4 {
   padding: .5rem .5rem .25rem .5rem ;
 }
 .bnr-hdr-title h1 {
-line-height: 60%;
+line-height: 75%;
 }
 @media screen and (max-width: 1366px) {
   .bnr-hdr-title {
