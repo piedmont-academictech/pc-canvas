@@ -163,12 +163,6 @@ h4 {
   }
 }
 
-/* Banner Flex container */
-.flex-bnr {
-  display: -ms-flex;
-	display: -webkit-flex;
-	display: flex;
-}
 /* Banner Header Logo */
 .bnr-hdr-logo {
   background-color: #144734;
@@ -198,6 +192,7 @@ h4 {
   border: .25px solid white;
   border-top-right-radius: 0.75rem;
   text-align: center;
+  vertical-align: baseline;
   max-width: 80%;
   padding: .25rem .5rem;
 }
