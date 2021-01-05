@@ -172,7 +172,7 @@ h4 {
 /* Banner Header Logo */
 .bnr-hdr-logo {
   background-color: #144734;
-  border: .5px solid white;
+  border: .25px solid white;
   border-top-left-radius: 0.75rem;
   text-align: center;
   max-width: 20%;
@@ -199,7 +199,7 @@ h4 {
   float: none;
   background-color: #144734;
   color: white;
-  border: .5px solid white;
+  border: .25px solid white;
   border-top-right-radius: 0.75rem;
   text-align: center;
   max-width: 80%;
