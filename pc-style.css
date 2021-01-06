@@ -167,8 +167,10 @@ h4 {
 /* Banner Header Logo */
 .bnr-hdr-logo {
   background-color: #144734;
+  display:table-cell;
   border: .25px solid white;
   border-top-left-radius: 0.75rem;
+  vertical-align: middle;
   text-align: center;
   max-width: 17%;
   padding: .5rem
@@ -182,7 +184,7 @@ h4 {
     border-bottom: none;
     border-top-right-radius: 0.75rem;
     border-top-left-radius: 0.75rem;
-    padding: .25rem 3.5rem;
+    padding: .25rem;
   }
   .bnr-hdr-logo img {
     width: 45%;
@@ -191,14 +193,15 @@ h4 {
 }
 /* Banner Header Title */
 .bnr-hdr-title {
-  float: none;
+  display: table-cell
   background-color: #144734;
   color: white;
   border: .25px solid white;
   border-top-right-radius: 0.75rem;
   text-align: center;
+  vertical-align:middle;
   max-width: 83%;
-  padding: .5rem .5rem 0 .5rem ;
+  padding: .25rem;
 }
 .bnr-hdr-title h1 {
 line-height: 98%;
