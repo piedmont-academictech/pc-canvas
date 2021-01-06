@@ -166,12 +166,13 @@ h4 {
 
 /* Banner Header Logo */
 .bnr-hdr-logo {
-  background-color: #144734;
+
   display:table-cell;
+  background-color: #144734;
   border: .25px solid white;
   border-top-left-radius: 0.75rem;
-  vertical-align: middle;
   text-align: center;
+  vertical-align: middle;
   max-width: 17%;
   padding: .5rem
 }
