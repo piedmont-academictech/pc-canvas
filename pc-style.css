@@ -193,7 +193,7 @@ h4 {
 }
 /* Banner Header Title */
 .bnr-hdr-title {
-  display: table-cell
+  display: table-cell;
   background-color: #144734;
   color: white;
   border: .25px solid white;
