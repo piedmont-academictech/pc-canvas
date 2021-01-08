@@ -2,7 +2,8 @@
 
 /********Front Page Banner********/
 #mm-wrapper_frontpage {
-    width: 100%;
     background-image: url();
-background-repeat: repeat;
+    background-repeat: repeat;
+    width: 100%;
+    min-height: 13.45rem ;
 }
