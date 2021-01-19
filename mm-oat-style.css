@@ -37,14 +37,15 @@
     background-repeat: repeat;
     width: 100%;
     min-height: 13.45rem ;
+    color: #fff;
 }
 
 .mm-header-image {
 
 }
 
-.mm-header-title h1{
-    color: #fff;
+.mm-header-title {
+
 }
 
 .mm-header-logo {
