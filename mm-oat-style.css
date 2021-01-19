@@ -1,4 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&family=Raleway:ital,wght@0,800;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+/**********Fonts**********/
+.ic-Layout-contentMain h1, h2 {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 2em;
+}
+.ic-Layout-contentMain h3, h4, h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.ic-Layout-contentMain p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font font-size: 0.9em;
+}
 
 /********Front Page Banner********/
 #mm-wrapper_frontpage {
