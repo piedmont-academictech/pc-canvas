@@ -1,16 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /**********Fonts**********/
-#content h1, h2 {
+#course_home_content h1, h2 {
     font-family: 'Merriweather', serif;
     font-weight: 900;
     font-size: 2em;
 }
-#content h3, h4, h5 {
+#course_home_content h3, h4, h5 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
 }
-#content p {
+#course_home_content p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+#wiki_page_show h1, h2 {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 2em;
+}
+#wiki_page_show h3, h4, h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+#wiki_page_show p {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 0.9em;
