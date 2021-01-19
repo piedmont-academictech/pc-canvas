@@ -43,8 +43,8 @@
 
 }
 
-.mm-header-title {
-
+.mm-header-title h1{
+    color: #fff;
 }
 
 .mm-header-logo {
