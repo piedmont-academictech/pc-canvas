@@ -35,6 +35,10 @@
 #mm-wrapper_frontpage {
     background-image: url(https://piedmont1-my.sharepoint.com/personal/melissaevans_piedmont_edu/Documents/images/prism.png);
     background-repeat: repeat;
+    background: rgba(0, 0, 0, 1.0);
+background: -webkit-linear-gradient(left, rgba(0, 0, 0, 1.0), rgba(105, 96, 87, 0.0));
+background: -moz-linear-gradient(left, rgba(0, 0, 0, 1.0), rgba(105, 96, 87, 0.0));
+background: linear-gradient(to right, rgba(0, 0, 0, 1.0), rgba(105, 96, 87, 0.0));
     width: 100%;
     min-height: 13.45rem ;
     color: #fff;
