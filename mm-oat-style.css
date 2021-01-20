@@ -41,7 +41,10 @@
 }
 .gradient-cont {
     background: rgb(0,0,0);
-background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 35%, rgba(105,96,87,0) 100%);
+background: -moz-linear-gradient(90deg, rgba(0,0,0,1) 20%, rgba(105,96,87,0) 60%);
+background: -webkit-linear-gradient(90deg, rgba(0,0,0,1) 20%, rgba(105,96,87,0) 60%);
+background: linear-gradient(90deg, rgba(0,0,0,1) 20%, rgba(105,96,87,0) 60%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#696057",GradientType=1);
 width: 100%;
 min-height: 13.45rem ;
 }
