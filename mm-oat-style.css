@@ -69,19 +69,17 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
 **********Something messed up**********/
 
 /********Front Page Banner********/
-
 #mm-wrapper_frontpage {
     background-image: url(https://piedmont1-my.sharepoint.com/personal/melissaevans_piedmont_edu/Documents/images/prism.png);
     background-repeat: repeat;
     width: 100%;
-    height: auto;
     min-height: 13.45rem;
     color: #fff;
 }
 
 .mm-wrapper-header {
     width: 100%;
-    height: auto;
+    height: 100%;
     top: 10%;
     left: 0;
 }
@@ -99,8 +97,8 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
 }
 .mm-header-image {
     position: relative;
-    overflow: hidden;
-    width: 30%;
+    overflow:hidden;
+    width: 100%;
     min-height: 13.45rem;
 }
 
@@ -108,8 +106,7 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
     position: absolute;
     left: 0;
     top: -15%;
-    width: 100%;
-    height: auto;
+    height: 500px;
 }
 
 .mm-wrapper-title{
@@ -117,6 +114,7 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
     position: absolute;
     z-index: 15;
     margin-left: 40%;
+    margin-bottom: 3rem;
 }
 
 .mm-header-title {
@@ -136,7 +134,6 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
 /**********Logo**********/
 
 .mm-wrapper-logo{
-    width: 50%;
     position: absolute;
     bottom: 0;
     right: 0;
@@ -147,7 +144,7 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
 
 .mm-header-logo {
     position: relative;
-    float: right;
+    float:right;
     margin-right: 2rem;
     width: 50%;
 }
