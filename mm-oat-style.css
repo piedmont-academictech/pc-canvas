@@ -134,6 +134,7 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
 /**********Logo**********/
 
 .mm-wrapper-logo{
+    width: 50%;
     position: absolute;
     bottom: 0;
     right: 0;
