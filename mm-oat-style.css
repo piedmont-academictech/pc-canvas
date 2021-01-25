@@ -120,6 +120,7 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
 .mm-header-title {
     text-align: right;
     vertical-align: top;
+    padding-right: 2rem;
 }
 
 /**********Nav & Logo**********/
