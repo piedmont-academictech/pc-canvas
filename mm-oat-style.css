@@ -13,7 +13,7 @@
 #course_home_content p {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    font-size: 0.9em;
+    font-size: 1em;
 }
 
 #wiki_page_show h1, h2 {
@@ -28,7 +28,7 @@
 #wiki_page_show p {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    font-size: 0.9em;
+    font-size: 1em;
 }
 /**********Canvas Page**********/
 body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-wrapper {
