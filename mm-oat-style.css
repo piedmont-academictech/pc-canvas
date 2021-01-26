@@ -69,6 +69,10 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
 
 
 /********Front Page Banner********/
+.mm-container{
+    display: flex;
+    flex-flow: row wrap;
+}
 
 
 /**********Logo**********/
@@ -82,10 +86,11 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
     list-style: none;
     margin: 0;
     background: #000;
+    font-weight: 500;
   }
 
   .navigation a {
-    text-decoration: none;
+    text-decoration: none !important;
     display: block;
     padding: 1em;
     color: white;
