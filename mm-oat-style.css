@@ -1,33 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300&family=Vollkorn:ital,wght@0,400;0,500;1,400;1,500&display=swap');
 
 /**********Fonts**********/
 #course_home_content h1, h2 {
-    font-family: 'Merriweather', serif;
-    font-weight: 900;
+    font-family: 'Vollkorn', serif;
+    font-weight: 400;
     font-size: clamp(1.5em, 2vw, 5em);
 }
 #course_home_content h3, h4, h5 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 700;
 }
 #course_home_content p {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
     font-size: 0.9em;
 }
 
 #wiki_page_show h1, h2 {
-    font-family: 'Merriweather', serif;
-    font-weight: 900;
+    font-family: 'Vollkorn', serif;
+    font-weight: 400;
     font-size: clamp(1.5em, 2vw, 5em);
 }
 #wiki_page_show h3, h4, h5 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 700;
 }
 #wiki_page_show p {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
     font-size: 0.9em;
 }
 /**********Canvas Page**********
