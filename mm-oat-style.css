@@ -69,24 +69,34 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
 
 
 /********Front Page Banner********/
-.mm-container{
-    display: flex;
-    flex-flow: row wrap;
-}
-
-
-/**********Logo**********/
-
-/**********Flex Nav**********/
-.navigation {
+.header {
+    background-image: url("https://piedmont1-my.sharepoint.com/personal/melissaevans_piedmont_edu/Documents/images/mm-oat-lion.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    Background-color: #000;
+  }
+  .mm-title {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
-
+    color: #fff;
+    text-align: right;
+    padding: 1rem;
+    margin: 0;
+    min-height:13.45rem;
+  }
+  .navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
     list-style: none;
     margin: 0;
     background: #000;
-    font-weight: 500;
+  }
+
+  .logo {
+    width: 175px;
+    padding:0.5rem;
   }
 
   .navigation a {
@@ -99,14 +109,47 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
   .navigation a:hover {
     background: #415364;
   }
+  /**********logo**********/
+  .navigation-logo {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    list-style: none;
+    margin: 0;
+    background: #000;
+  }
+  .logo {
+    width: 175px;
+    padding:0.25rem;
+  }
 
-  @media all and (max-width: 800px) {
+  .navigation-logo a {
+    text-decoration: none !important;
+    display: block;
+    padding: 0.25em;
+    color: white;
+  }
+
+  .navigation-logo a:hover {
+    background: #000;
+  }
+  @media all and (max-width: 1200px) {
     .navigation {
+      order: 0;
+      justify-content: space-around;
+    }
+    .header .mm-title {
+      order: -1;
+      height: auto;
+      text-align: right;
+    }
+    .navigation-logo {
+      order:0;
       justify-content: space-around;
     }
   }
 
-  @media all and (max-width: 600px) {
+  @media all and (max-width: 800px) {
     .navigation {
       flex-flow: column wrap;
       padding: 0;
@@ -120,81 +163,24 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
     .navigation li:last-of-type a {
       border-bottom: none;
     }
+    .header {
+     flex: 2 0px;
+     background-image: none;
+    }
+    .mm-title {
+      justify-content: space-around;
+    }
+     .navigation-logo {
+      flex-flow: column wrap;
+      padding: 0;
+    }
+    .navigation-logo a {
+      text-align: center;
+      padding: 10px;
+      border-top: 1px solid rgba(255, 255, 255,0.3);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    .navigation-logo li:last-of-type a {
+      border-bottom: none;
+    }
   }
-
-
-
-/**********Dropdown Nav**********
-.mm-header-navi {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-end;
-}
-
-.mm-header-navi a {
-    text-decoration: none !important;
-  }
-
-  .mm-header-navi nav {
-      font-family: 'Roboto';
-      font-weight: 400;
-      font-size: 1em;
-  }
-
-  .mm-header-navi ul {
-    background: #000000;
-      list-style: none;
-      margin: 0;
-      padding-left: 0;
-  }
-
-  .mm-header-navi li {
-      color: #fff;
-    background: #000000;
-      display: block;
-      float: left;
-      padding: 0.5rem;
-      position: relative;
-      text-decoration: none;
-    transition-duration: 0.5s;
-    width: 13.45rem;
-    text-align: center;
-  }
-
-  .mm-header-navi li a {
-    color: #fff;
-    text-decoration: none;
-  }
-
-  .mm-header-navi li:hover {
-      background: #B2B2B2;
-      cursor: pointer;
-  }
-
-  .mm-header-navi ul li ul {
-      background: #3E3935;
-      visibility: hidden;
-    opacity: 0;
-    min-width: 5rem;
-      position: absolute;
-    transition: all 0.5s ease;
-    margin-top: 0.5rem;
-      left: 0;
-    display: none;
-    width: 13.45rem;
-    text-align: center;
-  }
-
-  .mm-header-navi ul li:hover > ul,
-  ul li:focus-within > ul,
-  ul li ul:hover {
-    visibility: visible;
-    opacity: 1;
-    display: block;
-  }
-
-  .mm-header-navi ul li ul li {
-      clear: both;
-    width: 100%;
-  }
-  **********************************/
