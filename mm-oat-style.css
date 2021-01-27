@@ -75,6 +75,13 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
     background-size: contain;
     Background-color: #000;
   }
+  .mm-course-num{
+    font-family: 'Lato';
+    font-size: 6em;
+    font-weight: 900;
+    opacity: 30%;
+    line-height: 2px;
+  }
   .mm-title {
     display: flex;
     flex-flow: row wrap;
