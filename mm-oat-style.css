@@ -172,7 +172,7 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
     }
      .navigation-logo {
       flex-flow: column wrap;
-      padding: 0;
+      padding: 0 1rem;
     }
     .navigation-logo a {
       text-align: center;
