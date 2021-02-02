@@ -166,7 +166,35 @@ h1 .mm-prefix-color {
 }
 /*********************************************End of Headers****************************************/
 
-/**********Primary Section**********/
+/**********Sections for Home and Modules Pages**********/
+/**********Home Page**********/
+.mm-home-section-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  list-style: none;
+  color: #333;
+  background-color: #eee;
+  margin: 0;
+  padding: 0 2rem 2rem 2rem;
+  border-bottom: 2rem solid #fff;
+}
+
+.mm-home-section-wrapper h2 {
+  font-family: "Lato" !important;
+  font-size: clamp(2em, 3vw, 4em) !important;
+  font-weight: 900 !important;
+}
+
+.mm-home-section-wrapper p {
+  font-family: "Lato" !important;
+  font-weight: 500 !important;
+  margin-top: 0 !important;
+  font-size: clamp(1em, 1vw, 2em) !important;
+  max-width: 35rem;
+}
+
+/********** Modules Page **********/
 
 .mm-section-wrapper {
   display: flex;
@@ -196,7 +224,7 @@ h1 .mm-prefix-color {
 }
 
 h2 .mm-first-color {
-  color: #415364;  /********** This is where you change the color of the first word in the titles**********/
+  color: #415364; /********** This is where you change the color of the first word in the titles**********/
 }
 /*****************************************************End of Primary Section*******************************************/
 
@@ -222,7 +250,7 @@ h2 .mm-first-color {
 }
 
 h2 .mm-prefix-color {
-  color: #415364;  /********** This is where you change the color of the word Module **********/
+  color: #415364; /********** This is where you change the color of the word Module **********/
 }
 
 .mm-mod-number {
