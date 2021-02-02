@@ -78,12 +78,12 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation)
 
 /********MM-OAT-Header-Primary********/
 .header-lion {
-  background-image: url("https://piedmont1-my.sharepoint.com/personal/melissaevans_piedmont_edu/Documents/images/mm-oat-lion.png");
+  background-image: url("https://assets.codepen.io/5650050/mm-oat-lion.png");
   background-repeat: no-repeat;
   background-size: contain;
 }
 .header-triangles {
-  background-image: url("https://piedmont1-my.sharepoint.com/personal/melissaevans_piedmont_edu/Documents/images/dark-triangles.png");
+  background-image: url("https://assets.codepen.io/5650050/dark-triangles.png");
   background-color: #000;
 }
 .mm-title {
@@ -96,7 +96,7 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation)
   margin: 0;
 }
 h1 .mm-prefix-color {
-  color: #415364;
+  color: #415364; /********** This is where you change the course number color **********/
 }
 .mm-course-num {
   font-family: "Lato" !important;
@@ -196,7 +196,7 @@ h1 .mm-prefix-color {
 }
 
 h2 .mm-first-color {
-  color: #415364;
+  color: #415364;  /********** This is where you change the color of the first word in the titles**********/
 }
 /*****************************************************End of Primary Section*******************************************/
 
@@ -222,7 +222,7 @@ h2 .mm-first-color {
 }
 
 h2 .mm-prefix-color {
-  color: #415364;
+  color: #415364;  /********** This is where you change the color of the word Module **********/
 }
 
 .mm-mod-number {
@@ -240,7 +240,7 @@ h2 .mm-prefix-color {
   font-size: clamp(1em, 1vw, 1.5em) !important;
 }
 .mm-mod-start {
-  background-image: url("https://piedmont1-my.sharepoint.com/personal/melissaevans_piedmont_edu/Documents/images/green-triangles.png");
+  background-image: url("https://assets.codepen.io/5650050/green-triangles.png");
   border: 0.5rem solid #000;
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
@@ -270,7 +270,7 @@ h2 .mm-prefix-color {
 }
 
 .mm-module-nav-item {
-  background-image: url("https://piedmont1-my.sharepoint.com/personal/melissaevans_piedmont_edu/Documents/images/green-triangles.png");
+  background-image: url("https://assets.codepen.io/5650050/green-triangles.png");
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
   border-bottom-right-radius: 15px;
