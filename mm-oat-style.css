@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300&family=Vollkorn:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700;1,900&family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
 /**********Fonts**********/
 #course_home_content h1, h2 {
@@ -12,8 +12,8 @@
 }
 #course_home_content p {
     font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    font-size: 1em;
+    font-weight: 300;
+    font-size: 1.25em;
 }
 
 #wiki_page_show h1, h2 {
@@ -27,8 +27,8 @@
 }
 #wiki_page_show p {
     font-family: 'Lato', sans-serif;
-    font-weight:400;
-    font-size: 1em;
+    font-weight:300;
+    font-size: 1.25em;
 }
 /**********Canvas Page**********/
 body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-wrapper {
@@ -46,6 +46,7 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
 .with-right-side #right-side-wrapper {
     background-color: rgba(0, 0, 0, 0.03);
 }
+
 .pages .header-bar-outer-container {
     max-height: 2rem;
 }
@@ -69,29 +70,38 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
 
 
 /********Front Page Banner********/
+
 .header {
     background-image: url("https://piedmont1-my.sharepoint.com/personal/melissaevans_piedmont_edu/Documents/images/mm-oat-lion.png");
     background-repeat: no-repeat;
     background-size: contain;
     Background-color: #000;
   }
-  .mm-course-num{
-    font-family: 'Lato';
-    font-size: 6em;
-    font-weight: 900;
-    opacity: 30%;
-    line-height: 2px;
-  }
-  .mm-title {
+ .mm-title {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
     color: #fff;
     text-align: right;
-    padding: 1rem  1rem 1rem 45%;
+    padding: 1rem  1rem 1rem 47%;
     margin: 0;
     min-height:13.45rem;
   }
+h1 .mm-prefix-color{
+  color: #415364;
+}
+.mm-course-num {
+  font-family: 'Lato'!important;
+   font-size: clamp(3em, 6vw, 10em) !important;
+   font-weight: 900 !important;
+}
+.mm-course-title{
+  font-family: 'Lato'!important;
+  font-weight: 300 !important;
+  margin-top: 0 !important;
+     font-size: clamp(2em, 1vw, 3em) !important;
+
+}
   .navigation {
     display: flex;
     flex-flow: row wrap;
@@ -99,11 +109,6 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
     list-style: none;
     margin: 0;
     background: #000;
-  }
-
-  .logo {
-    width: 175px;
-    padding:0.5rem 1.5rem;
   }
 
   .navigation a {
@@ -117,7 +122,7 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
     background: #415364;
   }
   /**********logo**********/
-  .navigation-logo {
+  .mm-logo {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
@@ -127,38 +132,133 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
   }
   .logo {
     width: 175px;
-    padding:0.25rem;
+    padding: 1rem;
   }
 
-  .navigation-logo a {
-    text-decoration: none !important;
-    display: block;
-    padding: 0.25em;
+  /**********Orientation Section**********/
+
+  .mm-orientation-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    list-style: none;
+    text-align: center;
+    color: #333;
+    background-color: #eee;
+    margin: 0;
+    padding: 2rem;
+    border-top: 1rem solid #fff;
+    border-bottom: 1rem solid #fff;
+
+  }
+
+  .mm-orientation-wrapper h2 {
+    font-family: 'Lato'!important;
+     font-size: clamp(2em, 3vw, 4em) !important;
+     font-weight: 900 !important;
+  }
+
+  .mm-orientation-wrapper p {
+    font-family: 'Lato'!important;
+    font-weight: 500 !important;
+    margin-top: 0 !important;
+    font-size: clamp(1em, 1vw, 2em) !important;
+  }
+
+  h2 .mm-first-color{
+    color: #415364;
+  }
+
+  /**********Module Cards**********/
+
+  .mm-modules-cont {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .mm-module-item {
+    background-color: #000;
+    border: 0.5rem solid white;
     color: white;
+    text-align: center;
+    padding: 1rem 1rem 2rem 1rem;
+    width: 15rem;
   }
 
-  .navigation-logo a:hover {
-    background: #000;
+  h2 .mm-prefix-color{
+    color: #415364;
   }
+
+  .mm-mod-number{
+    font-family: 'Lato'!important;
+     font-size: clamp(2em, 2.5vw, 3em) !important;
+     font-weight: 900 !important;
+      line-height: 1;
+  }
+  .mm-mod-title {
+    height: 6.5rem;
+    padding: 0.5rem 1rem;
+    font-family: 'Lato'!important;
+    font-weight: 300 !important;
+    margin: 0 1rem 5rem 1rem !important;
+    font-size: clamp(1em, 1vw, 1.5em) !important;
+  }
+  .mm-mod-start {
+    background-image: url("https://piedmont1-my.sharepoint.com/personal/melissaevans_piedmont_edu/Documents/images/green-triangles.png");
+    border: 0.5rem solid #000;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    font-family: 'Lato'!important;
+    font-weight: 900 !important;
+    font-size: clamp(1em, 1vw, 2em) !important;
+    text-decoration: none !important;
+    color: #fff !important;
+    padding: 1rem 3rem;
+    overflow: hidden;
+  }
+  .mm-mod-start:hover {
+    opacity: 80%;
+  }
+
+
+  /**********@media**********/
+
+
   @media all and (max-width: 1200px) {
     .navigation {
-      order: 0;
       justify-content: space-around;
+    }
+    .header {
+      min-height: 13.45;
     }
     .header .mm-title {
-      order: -1;
-      height: auto;
       text-align: right;
     }
-    .navigation-logo {
-      order:0;
+    .mm-logo {
       justify-content: space-around;
     }
+   .mm-module-item {
+      justify-content: column;
+     width: 40%;
+    }
   }
-
+@media all and (max-width: 1155px){
+  .header {
+     flex: 2 0px;
+     justify-content: center;
+     background-image: none;
+    }
+}
   @media all and (max-width: 800px) {
     .navigation {
-      flex-flow: column wrap;
+      flex-flow: row wrap;
       padding: 0;
     }
     .navigation a {
@@ -170,14 +270,11 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
     .navigation li:last-of-type a {
       border-bottom: none;
     }
-    .header {
-     flex: 2 0px;
-     background-image: none;
-    }
     .mm-title {
-      justify-content: space-around;
+      text-align: center !important;
+      padding: 1rem;
     }
-     .navigation-logo {
+     .navigation-logo{
       flex-flow: column wrap;
       padding: 0 1rem;
     }
@@ -189,5 +286,12 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
     }
     .navigation-logo li:last-of-type a {
       border-bottom: none;
+    }
+    .mm-module-item {
+      width: 95%;
+      flex-flow: row wrap;
+    }
+    .mm-module-title {
+      height: 2rem;
     }
   }
