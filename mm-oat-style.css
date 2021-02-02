@@ -107,7 +107,7 @@ h1 .mm-prefix-color {
   font-family: "Lato" !important;
   font-weight: 300 !important;
   margin-top: 0 !important;
-  font-size: clamp(1.5em, 2vw, 4em) !important;
+  font-size: clamp(1.5em, 2vw, 3em) !important;
 }
 
 /********** Secondary Header **********/
